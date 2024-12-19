@@ -3,22 +3,23 @@
 @tailwind utilities;
 
 /* Default styles for light mode */
-:root {
-    --text: #101a0a;
-    --background:#f4f9f0;
-    --primary: #80c059;
-    --secondary: #94d6b2;
-    --accent: #76cbb7;
-  } 
-  
-  /* Dark mode styles */
-  [data-theme="dark"] {
-    --text: #ebf5e5;
-    --background: #0a0f06;
-    --primary: #67a63f;
-    --secondary: #296b47;
-    --accent: #348975;
-  }
+:root[data-theme="light"] {
+  --text: #0b1610;
+  /* --background: #f3f9f6; */
+  --background: #ffffff;
+  --primary: #61af81;
+  --secondary: #a7c7d2;
+  --accent: #86a3c2;
+}
+:root[data-theme="dark"] {
+  --text: #ebf5ef;
+  --background: #070e0a;
+  --primary: #509f71;
+  --secondary: #2d4d58;
+  --accent: #3e5b7a;
+}
+
+
   
   /* Body styling */
   body {

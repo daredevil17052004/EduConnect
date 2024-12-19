@@ -11,3 +11,14 @@
 --radialPrimarySecondary: radial-gradient(#80c059, #94d6b2);
 --radialPrimaryAccent: radial-gradient(#80c059, #76cbb7);
 --radialSecondaryAccent: radial-gradient(#94d6b2, #76cbb7);
+
+
+
+
+{
+  "token_type": "Bearer",
+  "access_token": "2ZRAXVYrtfcbXeXMz7SqmqEzfR2U",
+  "grant_type": "client_credentials",
+  "issued_at": 1734490888,
+  "expires_in": 1799
+}

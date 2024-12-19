@@ -1,0 +1,136 @@
+{
+  "courses": [
+    {
+      "course_id": 1,
+      "course_name": "Full-Stack Development",
+      "image": "/course.jpg",
+      "instructor": "John Doe",
+      "price": 299,
+      "striked_off_price": 399,
+      "valid_till": null,
+      "rating": 4.5,
+      "enrollments": 1200
+    },
+    {
+      "course_id": 2,
+      "course_name": "React for Beginners",
+      "image": "/course.jpg",
+      "instructor": "Jane Smith",
+      "price": 199,
+      "striked_off_price": 249,
+      "valid_till": null,
+      "rating": 4.7,
+      "enrollments": 950
+    },
+    {
+      "course_id": 3,
+      "course_name": "Mastering Next.js",
+      "image": "/course.jpg",
+      "instructor": "Robert Brown",
+      "price": 149,
+      "striked_off_price": 199,
+      "valid_till": "2024-12-31",
+      "rating": 4.6,
+      "enrollments": 780
+    },
+    {
+      "course_id": 4,
+      "course_name": "Python for Data Science",
+      "image": "/course.jpg",
+      "instructor": "Emily Davis",
+      "price": 179,
+      "striked_off_price": 229,
+      "valid_till": null,
+      "rating": 4.8,
+      "enrollments": 1500
+    },
+    {
+      "course_id": 5,
+      "course_name": "Machine Learning Basics",
+      "image": "/course.jpg",
+      "instructor": "Daniel Lee",
+      "price": 249,
+      "striked_off_price": 299,
+      "valid_till": "2025-01-15",
+      "rating": 4.4,
+      "enrollments": 890
+    },
+    {
+      "course_id": 6,
+      "course_name": "UI/UX Design Fundamentals",
+      "image": "/course.jpg",
+      "instructor": "Sophia Wilson",
+      "price": 199,
+      "striked_off_price": 249,
+      "valid_till": null,
+      "rating": 4.5,
+      "enrollments": 720
+    },
+    {
+      "course_id": 7,
+      "course_name": "Figma Advanced Techniques",
+      "image": "/course.jpg",
+      "instructor": "Oliver Johnson",
+      "price": 99,
+      "striked_off_price": 149,
+      "valid_till": "2024-12-25",
+      "rating": 4.3,
+      "enrollments": 650
+    },
+    {
+      "course_id": 8,
+      "course_name": "Deep Learning with TensorFlow",
+      "image": "/course.jpg",
+      "instructor": "Mia Martinez",
+      "price": 299,
+      "striked_off_price": 399,
+      "valid_till": null,
+      "rating": 4.7,
+      "enrollments": 1100
+    },
+    {
+      "course_id": 9,
+      "course_name": "NLP with Transformers",
+      "image": "/course.jpg",
+      "instructor": "William Thomas",
+      "price": 349,
+      "striked_off_price": 399,
+      "valid_till": "2025-02-01",
+      "rating": 4.6,
+      "enrollments": 870
+    },
+    {
+      "course_id": 10,
+      "course_name": "DevOps Essentials",
+      "image": "/course.jpg",
+      "instructor": "Evelyn White",
+      "price": 129,
+      "striked_off_price": 179,
+      "valid_till": null,
+      "rating": 4.4,
+      "enrollments": 560
+    },
+    {
+      "course_id": 11,
+      "course_name": "Cloud Computing with AWS",
+      "image": "/course.jpg",
+      "instructor": "Henry Moore",
+      "price": 299,
+      "striked_off_price": 399,
+      "valid_till": "2024-12-20",
+      "rating": 4.5,
+      "enrollments": 1300
+    },
+    {
+      "course_id": 12,
+      "course_name": "Cybersecurity Basics",
+      "image": "/course.jpg",
+      "instructor": "Ella Harris",
+      "price": 199,
+      "striked_off_price": 249,
+      "valid_till": null,
+      "rating": 4.6,
+      "enrollments": 980
+    }
+  ]
+}

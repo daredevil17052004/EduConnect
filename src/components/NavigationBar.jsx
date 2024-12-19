@@ -1,8 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
-import ThemeSwitcher from '@/components/ThemeSwitcher'
-import NavbarDemo from '@/components/NavMenu'
-
+import ThemeSwitcher from '@/components/ThemeSwitcher';
+import NavigationMenuDemo from '@/components/NavMenu';
 
 const CustomLink = ({ href, title, className = "" }) => {
     return (
@@ -24,7 +23,7 @@ const NavigationBar = () => {
         <div className='w-1/2 flex items-center'>
           <div className='text-xl font-semibold'>
             <span>Edu</span>
-            <span className='text-accent'>Connect.</span>
+            <span className='text-primary'>Connect.</span>
           </div>
 
           <div className='relative'>
@@ -49,14 +48,15 @@ const NavigationBar = () => {
           </div>
 
           <div className='mx-4'>
-            <button className='h-10 bg-secondary hover:bg-transparent transition-all duration-300 rounded-full p-2 w-32 flex items-center justify-center text-white hover:text-secondary'>
+            <button className='h-10 bg-primary hover:bg-transparent hover:border-2 hover:border-primary transition-all duration-300 rounded-full p-2 w-32 flex items-center justify-center text-white hover:text-primary'>
               Join for Free
             </button>
           </div>
         </div>
       </div>
 
-      <div className='bg-white px-10 '>
+      <div className='bg-accent text-white  px-10 w-full'>
+        <NavigationMenuDemo></NavigationMenuDemo>
       </div>
     </div>
   );

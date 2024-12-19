@@ -1,0 +1,276 @@
+{
+    "categories": [
+      {
+        "name": "Programming",
+        "courses": [
+          {
+            "course_id": "C101",
+            "course_name": "Python for Beginners",
+            "subcategory": "Python",
+            "description": "Learn the basics of Python programming in 10 hours.",
+            "duration": "10 hrs",
+            "level": "Beginner",
+            "price": 49.99,
+            "rating": 4.5,
+            "number_of_reviews": 1200,
+            "language": "English",
+            "instructor": "John Doe",
+            "enrollments": 5000,
+            "published_date": "2023-01-15",
+            "image" : "/course.jpg"
+          },
+          {
+            "course_id": "C106",
+            "course_name": "JavaScript Essentials",
+            "subcategory": "JavaScript",
+            "description": "Master the fundamentals of JavaScript programming.",
+            "duration": "15 hrs",
+            "level": "Intermediate",
+            "price": 59.99,
+            "rating": 4.7,
+            "number_of_reviews": 2100,
+            "language": "English",
+            "instructor": "Alice Brown",
+            "enrollments": 8000,
+            "published_date": "2023-04-10",
+            "image" : "/course.jpg"
+          },
+          {
+            "course_id": "C107",
+            "course_name": "Web Development Bootcamp",
+            "subcategory": "Full Stack",
+            "description": "Become a full-stack developer with hands-on projects.",
+            "duration": "40 hrs",
+            "level": "Beginner",
+            "price": 99.99,
+            "rating": 4.6,
+            "number_of_reviews": 5000,
+            "language": "English",
+            "instructor": "Mark Taylor",
+            "enrollments": 15000,
+            "published_date": "2022-09-05",
+            "image" : "/course.jpg"
+          },
+          {
+            "course_id": "C107",
+            "course_name": "Web Development Bootcamp",
+            "subcategory": "Full Stack",
+            "description": "Become a full-stack developer with hands-on projects.",
+            "duration": "40 hrs",
+            "level": "Beginner",
+            "price": 99.99,
+            "rating": 4.6,
+            "number_of_reviews": 5000,
+            "language": "English",
+            "instructor": "Mark Taylor",
+            "enrollments": 15000,
+            "published_date": "2022-09-05",
+            "image" : "/course.jpg"
+          },
+          {
+            "course_id": "C107",
+            "course_name": "Web Development Bootcamp",
+            "subcategory": "Full Stack",
+            "description": "Become a full-stack developer with hands-on projects.",
+            "duration": "40 hrs",
+            "level": "Beginner",
+            "price": 99,
+            "rating": 4.6,
+            "number_of_reviews": 5000,
+            "language": "English",
+            "instructor": "Mark Taylor",
+            "enrollments": 15000,
+            "published_date": "2022-09-05",
+            "image" : "/course.jpg"
+          }
+
+        ]
+      },
+      {
+        "name": "Data Science",
+        "courses": [
+          {
+            "course_id": "C102",
+            "course_name": "Advanced Machine Learning",
+            "subcategory": "Machine Learning",
+            "description": "Explore advanced ML concepts with TensorFlow and PyTorch.",
+            "duration": "40 hrs",
+            "level": "Advanced",
+            "price": 199,
+            "rating": 4.8,
+            "number_of_reviews": 4500,
+            "language": "English",
+            "instructor": "Jane Smith",
+            "enrollments": 15000,
+            "published_date": "2022-07-10",
+            "image" : "/course.jpg"
+          },
+          {
+            "course_id": "C108",
+            "course_name": "Data Science for Everyone",
+            "subcategory": "Data Science Basics",
+            "description": "An introduction to the field of data science for beginners.",
+            "duration": "25 hrs",
+            "level": "Beginner",
+            "price": 79.99,
+            "rating": 4.5,
+            "number_of_reviews": 3000,
+            "language": "English",
+            "instructor": "Sophia Green",
+            "enrollments": 10000,
+            "published_date": "2023-02-01",
+            "image" : "/course.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Design",
+        "courses": [
+          {
+            "course_id": "C103",
+            "course_name": "UI/UX Design Essentials",
+            "subcategory": "UI/UX",
+            "description": "Master the fundamentals of user interface and experience.",
+            "duration": "20 hrs",
+            "level": "Intermediate",
+            "price": 79.99,
+            "rating": 4.6,
+            "number_of_reviews": 2200,
+            "language": "English",
+            "instructor": "Emily Davis",
+            "enrollments": 8000,
+            "published_date": "2023-03-20",
+            "image" : "/course.jpg"
+          },
+          {
+            "course_id": "C109",
+            "course_name": "Graphic Design Masterclass",
+            "subcategory": "Graphic Design",
+            "description": "Learn advanced graphic design techniques using Adobe tools.",
+            "duration": "35 hrs",
+            "level": "Advanced",
+            "price": 149.99,
+            "rating": 4.9,
+            "number_of_reviews": 5000,
+            "language": "English",
+            "instructor": "Oliver Brown",
+            "enrollments": 12000,
+            "published_date": "2022-06-12",
+            "image" : "/course.jpg"
+          }
+        ]
+      },
+      {
+        "name": "IT & Security",
+        "courses": [
+          {
+            "course_id": "C104",
+            "course_name": "Introduction to Cybersecurity",
+            "subcategory": "Cybersecurity",
+            "description": "A comprehensive introduction to the fundamentals of cybersecurity.",
+            "duration": "15 hrs",
+            "level": "Beginner",
+            "price": 99.99,
+            "rating": 4.7,
+            "number_of_reviews": 3100,
+            "language": "English",
+            "instructor": "Michael Lee",
+            "enrollments": 12000,
+            "published_date": "2023-06-01",
+            "image" : "/course.jpg"
+          },
+          {
+            "course_id": "C110",
+            "course_name": "Ethical Hacking Basics",
+            "subcategory": "Ethical Hacking",
+            "description": "Learn the basics of ethical hacking and penetration testing.",
+            "duration": "30 hrs",
+            "level": "Intermediate",
+            "price": 149.99,
+            "rating": 4.6,
+            "number_of_reviews": 4200,
+            "language": "English",
+            "instructor": "Lucas White",
+            "enrollments": 15000,
+            "published_date": "2023-01-10",
+            "image" : "/course.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Marketing",
+        "courses": [
+          {
+            "course_id": "C105",
+            "course_name": "Digital Marketing Strategies",
+            "subcategory": "Digital Marketing",
+            "description": "Learn the latest strategies to excel in digital marketing.",
+            "duration": "25 hrs",
+            "level": "Intermediate",
+            "price": 129.99,
+            "rating": 4.3,
+            "number_of_reviews": 1800,
+            "language": "English",
+            "instructor": "Sarah Johnson",
+            "enrollments": 9000,
+            "published_date": "2022-10-15",
+            "image" : "/course.jpg"
+          },
+          {
+            "course_id": "C111",
+            "course_name": "SEO Mastery Course",
+            "subcategory": "SEO",
+            "description": "Master the art of search engine optimization to grow your business.",
+            "duration": "18 hrs",
+            "level": "Intermediate",
+            "price": 99.99,
+            "rating": 4.5,
+            "number_of_reviews": 2100,
+            "language": "English",
+            "instructor": "Jessica Adams",
+            "enrollments": 6000,
+            "published_date": "2023-07-15",
+            "image" : "/course.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Business",
+        "courses": [
+          {
+            "course_id": "C112",
+            "course_name": "Project Management Essentials",
+            "subcategory": "Project Management",
+            "description": "Learn essential skills for managing projects effectively.",
+            "duration": "20 hrs",
+            "level": "Beginner",
+            "price": 79.99,
+            "rating": 4.4,
+            "number_of_reviews": 1700,
+            "language": "English",
+            "instructor": "Ethan Roberts",
+            "enrollments": 7000,
+            "published_date": "2022-08-25",
+            "image" : "/course.jpg"
+          },
+          {
+            "course_id": "C113",
+            "course_name": "Financial Analysis and Modeling",
+            "subcategory": "Finance",
+            "description": "Understand financial modeling techniques to drive decision-making.",
+            "duration": "30 hrs",
+            "level": "Advanced",
+            "price": 199.99,
+            "rating": 4.7,
+            "number_of_reviews": 2600,
+            "language": "English",
+            "instructor": "Isabella Harris",
+            "enrollments": 4000,
+            "published_date": "2023-05-05",
+            "image" : "/course.jpg"
+          }
+        ]
+      }
+    ]
+  }
+  
