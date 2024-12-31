@@ -7,6 +7,7 @@ import Selection from "@/components/Selection";
 import Timer from '@/components/Timer'
 import Limited from '@/components/Limited'
 import Reviews from '@/components/Reviews'
+import Footer from '@/components/Footer'
 
 const AvatarItem = ({ src, fallback, isLast = false }) => {
   return (
@@ -405,20 +406,53 @@ export function Home() {
       </div>
 
 
-      <div className="h-screen w-full bg-slate-200">
-          <div>
+      <div className="h-screen w-full bg-slate-200 flex flex-col items-center justify-center gap-4">
+          <div className="flex flex-col items-center my-4">
             <div>
               <p className="text-3xl text-primary font-semibold">What Our Learner Are Saying </p>
             </div>
 
-            <div>
+            <div className="w-[540px] flex items-center justify-center text-center my-4  text-md">
               <p>Hear from our student and professionals who've transformed their careers and lives thorugh our courses.</p>
             </div>
           </div>
 
           <div>
-            <Reviews/>
+            <Reviews align="start" direction="ltr"/>
           </div>
+
+          <div className="">
+            <Reviews align="start" direction="ltr"/>
+          </div>
+      </div>
+
+
+      {/*  */}
+
+      <div className="h-screen w-full flex items-center justify-center px-20">
+          <div className="w-1/2">
+            <div className="my-4">
+              <p className="text-3xl text-primary font-semibold">Share Your Knowledge. Inspire <br /> Learners</p>
+            </div>
+
+            <div className="my-4">
+              <p>Join our community of expert instructors and create your own <br /> courses to reach thousands of learners worldwide.</p>
+            </div>
+
+            <div className="my-4">
+              <button className="bg-primary text-white w-52 p-2 rounded-full">Start Learning Today</button>
+            </div>
+          </div>
+
+          <div className="w-1/2">
+            <Image src='/study.jpg' width={700} height={700} alt="imgae" className=""/>
+          </div>
+      </div>
+
+      {/* Footer */}
+
+      <div>
+        <Footer/>
       </div>
     </div>
 

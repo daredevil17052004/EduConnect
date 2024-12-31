@@ -4,41 +4,46 @@
         "userId": 1,
         "name": "John Doe",
         "email": "johndoe@example.com",
-        "testimonial": "Udemy has been an absolute game-changer for my personal and professional development. The platform offers an extensive variety of courses that cater to almost every field imaginable. I particularly appreciate the user-friendly interface, which makes browsing and selecting courses a breeze. The ability to learn at my own pace has allowed me to balance my learning journey with work and other commitments. Overall, it’s an excellent platform for anyone looking to upskill or pursue their passions.",
+        "testimonial": "Udemy has been a game-changer for my learning journey. The courses are diverse, and the platform is user-friendly. Learning at my own pace is a huge plus!",
         "rating": 5,
-        "date": "2024-11-01"
+        "date": "2024-11-01",
+        "image": "/user.png"
       },
       {
         "userId": 2,
         "name": "Jane Smith",
         "email": "janesmith@example.com",
-        "testimonial": "Udemy has become my go-to platform for learning new skills, thanks to its affordable pricing and frequent discounts. The variety of courses offered is commendable, and I’ve been able to explore multiple topics without breaking the bank. However, I feel that while there’s a lot of beginner-friendly content, there’s a lack of advanced-level courses in certain niches. It would be great if Udemy could focus on expanding its offerings for professionals who want to dive deeper into specialized areas. Despite this, I highly recommend the platform to anyone starting their learning journey.",
+        "testimonial": "Udemy offers great pricing and course variety. While beginner content is excellent, more advanced courses would make it even better.",
         "rating": 4,
-        "date": "2024-11-05"
+        "date": "2024-11-05",
+        "image": "/user.png"
       },
       {
         "userId": 3,
         "name": "Alex Johnson",
         "email": "alexjohnson@example.com",
-        "testimonial": "The video quality and content organization on Udemy are top-notch. I’ve taken several courses on the platform and have found the instructors to be knowledgeable and engaging. The ability to download course materials and watch them offline is a great feature for someone like me who travels often. That said, some courses lack practical assignments or quizzes that could help reinforce the concepts taught. If Udemy could improve the quality of the assignments and make the courses more interactive, it would truly set the platform apart from its competitors.",
+        "testimonial": "The instructors are knowledgeable, and offline access is helpful. Adding more interactive assignments would enhance the learning experience.",
         "rating": 4,
-        "date": "2024-12-10"
+        "date": "2024-12-10",
+        "image": "/user.png"
       },
       {
         "userId": 4,
         "name": "Maria Garcia",
         "email": "mariagarcia@example.com",
-        "testimonial": "One of the best features of Udemy is the lifetime access to courses. I cannot stress enough how helpful this has been for me. Often, I complete a course and come back to it months later to refresh my memory or revisit specific concepts. The flexibility and freedom this provides are unmatched. Additionally, the mobile app works seamlessly, allowing me to continue my learning even when I’m on the go. While most of my experiences have been positive, I would love to see more community engagement tools, such as forums or group discussions for students enrolled in the same course.",
+        "testimonial": "Lifetime access to courses is amazing! It allows me to revisit content anytime. Adding student forums would improve the experience further.",
         "rating": 5,
-        "date": "2024-12-15"
+        "date": "2024-12-15",
+        "image": "/user.png"
       },
       {
         "userId": 5,
         "name": "Michael Brown",
         "email": "michaelbrown@example.com",
-        "testimonial": "Udemy is a good platform for beginners who are just starting out in their learning journey. The courses are affordable, and the regular sales make it even easier to access high-quality content. However, one downside I’ve noticed is that some courses are not updated regularly, which can be frustrating when learning a subject like technology, where things change quickly. It would be great if Udemy implemented a better review system to ensure outdated courses are either removed or updated to match current standards. Despite this, I’ve had a decent experience and would recommend the platform with some reservations.",
+        "testimonial": "Udemy is great for beginners. Affordable courses are a plus, but some outdated content could be improved to stay relevant.",
         "rating": 3,
-        "date": "2024-12-16"
+        "date": "2024-12-16",
+        "image": "/user.png"
       }
     ]
   }

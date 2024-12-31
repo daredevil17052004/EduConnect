@@ -14,7 +14,7 @@ import Image from 'next/image'
 
 
 
-const Reviews = () => {
+const Reviews = ({align, direction}) => {
 
     const [reviews, setReviews] = useState(null);
 
@@ -35,7 +35,9 @@ const Reviews = () => {
 
     <Carousel
     opts={{
-      align: "start",
+      align,
+      loop:true,
+      direction
     }}
     plugins={[
         Autoplay({
@@ -44,13 +46,36 @@ const Reviews = () => {
       ]}
     className="w-full"
   >
-    <CarouselContent className="flex mr-4">
+    <CarouselContent className="flex mr-4 ">
       {reviews.testimonials.map((course, courseIndex) => (
-        <CarouselItem key={courseIndex} className="basis-full md:basis-1/2 lg:basis-1/2">
-          <Card className="h-[400px ]">
+        <CarouselItem key={courseIndex} className="basis-full md:basis-1/2 lg:basis-1/4">
+          <Card className="h-72">
             <CardContent className=" aspect-square p-4">
-                <div>
-                    
+                <div className='flex flex-col items-start   h-64'>
+                    <div className='flex items-center'>
+                        <div>
+                            <Image src={course.image} width={40} height={30} alt='image' className='rounded-full'/>
+                        </div>
+                        <div className='pl-3'>
+                            <div>
+                                <p>{course.name}</p>
+                            </div>
+                            <div className='text-zinc-600'>
+                                <p className='text-sm'>{course.email}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='mt-3'>
+                        <p>
+                            {course.testimonial}
+                        </p>
+                    </div>
+
+
+                    <div className="absolute bottom-4 flex items-center">
+                        <span>{course.rating} </span>
+                        <span className='pb-1 pl-1'> ⭐</span>
+                    </div>
                 </div>
             </CardContent>
           </Card>
