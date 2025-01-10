@@ -54,7 +54,7 @@ const Footer = () => {
           </div>
 
           <div className='links'>
-
+        
           </div>
       </div>
     </div>
