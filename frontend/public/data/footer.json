@@ -1,0 +1,61 @@
+{
+    "footer": {
+      "sections": [
+        {
+          "title": "Popular Courses",
+          "links": [
+            "Python for Data Science",
+            "Digital Marketing Masterclass",
+            "Project Management Professional (PMP)",
+            "Graphic Design for Beginners",
+            "Full-Stack Web Development",
+            "Advanced Excel Techniques",
+            "Microsoft Power BI Data Analyst Professional Certificate",
+            "Google UX Design Certificate",
+            "All Courses"
+          ]
+        },
+        {
+          "title": "Popular Categories",
+          "links": [
+            "Technology",
+            "IT & Software",
+            "Art & Design",
+            "Marketing",
+            "Health & Fitness",
+            "Personal Development",
+            "Math & Logic",
+            "Language Learning",
+            "All Categories"
+          ]
+        },
+        {
+          "title": "About Company",
+          "links": [
+            "About us",
+            "What We Offer",
+            "Careers",
+            "Leadership",
+            "For Enterprise",
+            "Become a Partner",
+            "Press & Media",
+            "Contact Us",
+            "Catalog",
+            "Help & Support"
+          ]
+        },
+        {
+          "title": "Community",
+          "links": [
+            "Instructor Community",
+            "Learner Stories",
+            "Forums & Discussions",
+            "Events & Webinars",
+            "Partnerships",
+            "Affiliate Program"
+          ]
+        }
+      ]
+    }
+  }
+  
