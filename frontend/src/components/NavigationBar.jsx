@@ -43,7 +43,7 @@ const NavigationBar = () => {
 
           <div className='mx-4'>
             <button className='border-2 h-10 flex items-center justify-center border-accent rounded-full p-2 w-32 text-accent hover:bg-accent hover:text-white hover:border-transparent hover:border-0 transition-all duration-300'>
-              Log In
+              <Link href='login'>Log In</Link>
             </button>
           </div>
 
