@@ -35,7 +35,7 @@ const Footer = () => {
                   {
                     item.links.map((item,index)=>{
                       return(
-                        <div className=''>
+                        <div className='' key={index}>
                           <p className='hover:underline hover:underline-offset-2 hover:cursor-pointer hover:text-primary transition-all duration-300'>{item}</p>
                         </div>
                       )

@@ -3,7 +3,6 @@ import CredentialsProvider from "next-auth/providers/credentials";
 import SequelizeAdapter from "@next-auth/sequelize-adapter";
 import sequelize from "@/lib/sequelize";
 import {User} from '../../../models/user';
-import { where } from 'sequelize';
 
 export default NextAuth({
     providers:[

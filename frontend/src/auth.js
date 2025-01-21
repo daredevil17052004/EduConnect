@@ -41,7 +41,7 @@ export const{
                 if(user && user.token){
                     return{...user, token : user.token};
                 }else{
-                    return null;npm install @nestjs/typeorm typeorm mysql2
+                    return null;
 
                 }
             }

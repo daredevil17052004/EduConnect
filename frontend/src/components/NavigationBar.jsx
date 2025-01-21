@@ -3,18 +3,18 @@ import Link from 'next/link';
 import ThemeSwitcher from '@/components/ThemeSwitcher';
 import NavigationMenuDemo from '@/components/NavMenu';
 
-const CustomLink = ({ href, title, className = "" }) => {
-    return (
-        <Link href={href}>
-            <a className={`${className} relative group`}>
-                {title}
-                <span className={`h-[1px] inline-block bg-accent text-accent absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300 w-0`}>
-                    &nbsp;
-                </span>
-            </a>
-        </Link>
-    );
-};
+// const CustomLink = ({ href, title, className = "" }) => {
+//     return (
+//         <Link href={href}>
+//             <a className={`${className} relative group`}>
+//                 {title}
+//                 <span className={`h-[1px] inline-block bg-accent text-accent absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300 w-0`}>
+//                     &nbsp;
+//                 </span>
+//             </a>
+//         </Link>
+//     );
+// };
 
 const NavigationBar = () => {
   return (

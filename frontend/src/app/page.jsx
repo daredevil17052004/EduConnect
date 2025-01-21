@@ -2,7 +2,6 @@ import Image from "next/image";
 import NavigationBar from "@/components/NavigationBar";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import Link from "next/link";
-import MainCarousel from '@/components/MainCarousel'
 import Selection from "@/components/Selection";
 import Timer from '@/components/Timer'
 import Limited from '@/components/Limited'
@@ -27,7 +26,7 @@ const AvatarItem = ({ src, fallback, isLast = false }) => {
 
 
 
-export function Home() {
+const  Home = () =>{
 
 
   const avatars = [
@@ -412,8 +411,8 @@ export function Home() {
               <p className="text-3xl text-primary font-semibold">What Our Learner Are Saying </p>
             </div>
 
-            <div className="w-[540px] flex items-center justify-center text-center my-4  text-md">
-              <p>Hear from our student and professionals who've transformed their careers and lives thorugh our courses.</p>
+            <div className="w-[540px] flex items-center justify-center text-center my-4 text-md">
+              <p>Hear from our student and professionals whove transformed their careers and lives thorugh our courses.</p>
             </div>
           </div>
 
